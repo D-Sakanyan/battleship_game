@@ -1,4 +1,5 @@
 Battleship Game
+
 #Input Format
 
 Players enter ship coordinates in the format: LetterNumber (e.g., A1, D7, J10).

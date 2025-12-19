@@ -27,7 +27,7 @@ def print_board(board,title):
 def board_to_string(board):
     return "".join("".join(row) for row in board)
 
-def coord_to_index(coor):
+def coord_to_index(coord):
     coord = coord.upper().strip()
     r = ord(coord[0] - ord('A'))
     c = int(coord[1:] - 1)
